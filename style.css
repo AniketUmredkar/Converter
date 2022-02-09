@@ -8,12 +8,18 @@ html {
   font-family: "Rubik", sans-serif;
 }
 
+body {
+  background-color: #f5f5f5;
+}
+
 .heading-primary {
   text-align: center;
   padding: 20px;
+  background-color: #eee;
 }
 
 .container {
+  padding: 20px;
   width: 600px;
   margin: 0 auto;
   display: grid;
