@@ -76,3 +76,12 @@ function convertTo(fromBase, toBase, input, baseDigits) {
   console.log(ans);
   return ans;
 }
+
+function swap() {
+  let temp = selectFromEl.value;
+  selectFromEl.value = selectToEl.value;
+  selectToEl.value = temp;
+  temp = inputEl.value;
+  inputEl.value = outputEl.value;
+  outputEl.value = temp;
+}
