@@ -1,3 +1,4 @@
+"use strict";
 const selectToEl = document.querySelector(".select-to");
 const selectFromEl = document.querySelector(".select-from");
 const inputEl = document.querySelector(".input-from");
@@ -73,7 +74,6 @@ function convertTo(fromBase, toBase, input, baseDigits) {
   for (let i = rev.length - 1; i >= 0; i--) {
     ans += rev.charAt(i);
   }
-  console.log(ans);
   return ans;
 }
 
